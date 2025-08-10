@@ -1,0 +1,5 @@
+MODEL = "gemini-2.5-flash"
+WORK_DIR = "temp"
+TIMEOUT = 120
+MAX_TURNS = 10
+TEXT_MENTION = "STOP"

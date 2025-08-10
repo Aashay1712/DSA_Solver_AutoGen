@@ -1,0 +1,19 @@
+def add_numbers(a, b):
+  """
+  This function takes two numbers as input and returns their sum.
+  """
+  return a + b
+
+# Test cases
+test_cases = [
+    (5, 3),        # Positive integers
+    (-10, 20),     # Negative and positive integer
+    (7.5, 2.5),    # Floating-point numbers
+    (0, 0),        # Zeros
+    (-5, -3)       # Negative integers
+]
+
+print("Testing the add_numbers function:")
+for num1, num2 in test_cases:
+    result = add_numbers(num1, num2)
+    print(f"Adding {num1} and {num2}: Result = {result}")

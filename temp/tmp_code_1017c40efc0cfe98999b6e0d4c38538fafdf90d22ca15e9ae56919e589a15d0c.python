@@ -1,0 +1,20 @@
+def add_numbers(num1, num2):
+    """
+    This function takes two numbers as input and returns their sum.
+    """
+    return num1 + num2
+
+# Test cases
+test_cases = [
+    (5, 3),         # Positive integers
+    (10.5, 2.3),    # Floating-point numbers
+    (-7, 4),        # Mixed: negative and positive integer
+    (0, 0),         # Zeros
+    (-5.5, -2.5)    # Negative floats
+]
+
+print("Executing test cases:")
+for i, (n1, n2) in enumerate(test_cases):
+    result = add_numbers(n1, n2)
+    print(f"Test Case {i+1}: Adding {n1} and {n2} = {result}")
+
